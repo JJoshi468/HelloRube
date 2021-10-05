@@ -11,14 +11,17 @@ def hacktoberfest():
 
 def HACKtoberFEST():
     print("Hello, World!")
-
+def HackToBerFest():
+    print('Hello, Opensource!')
 
 
 while HACKTOBERFEST == 100:
     time.sleep(1)
 
-
-
-    if hacktoberfest() == 3:
+    if hacktoberfest() >= 3:
         HACKtoberFEST()
         break
+    elif hacktoberfest()<3:
+        HackToBerFest()
+        break
+        
